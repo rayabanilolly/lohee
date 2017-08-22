@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaijaan')
+
+html, body, #content
+
+  height : 100%
+  margin : 0
+  box-sizing : border-box
+  -moz-box-sizing : border-box
+  font-family: 'Baloo Bhaijaan'
+  background-color: #D9AFD9
+  background-image: linear-gradient(248deg, #D9AFD9 0%, #97D9E1 100%)
+
+#content
+
+  vertical-align : middle
+  text-align : center
+  margin: auto
+  float: none
+  color : #fff
+
+  .text
+
+    position: relative
+    float: left
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+
+    h1
+
+      font-size: 4em
+      margin: 0
+
+    h6
+
+      margin: 0
+      font-size: 1.5em
+
+    p
+
+      font-size: 1em
+      margin-top :  20px
+
+  .social-media-wrapper
+
+    width: 100%
+    position: absolute
+    bottom: 5em
+    float: right
+    padding-top: 20px
+
+    a
+
+      color : white
+
+    .social-media
+
+      width: 230px
+      height: 34px
+      margin: 0 10px
+      display: inline-block
+      border : solid 1px white
+      transition: all ease-in-out 0.5s
+
+      &:hover
+
+        background: #fff
+        cursor: pointer
+
+        .icon
+
+          background: none
+
+        .username
+
+          color : #D9AFD9
+
+      .icon
+
+        width: 34px
+        height: 33px
+        background: white
+        float: left
+        color : #D9AFD9
+
+        span
+
+          position: relative
+          float: left
+          top: 50%
+          left: 50%
+          transform: translate(-50%, -50%)
+
+      .username
+
+        width: 193px
+        height: 34px
+        float: right
+
+        span
+
+          position: relative
+          float: left
+          top: 50%
+          left: 50%
+          transform: translate(-50%, -50%)
+
+
+// Responsive Style
+
+@import responsive
